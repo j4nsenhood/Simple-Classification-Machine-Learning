@@ -2,14 +2,17 @@ import random
 
 
 class NeuralNetwork:
-    def dataset(i1, i2, i3):
-        data = []
-        data[0][0][0] = i1
-        data[0][1][0] = i2
-        data[0][0][1] = i3
+
+    def __init__(self):
+        self.data = []
+
+    def dataset(self,i1, i2, i3):
+        self.data[0][0][0] = i1
+        self.data[0][1][0] = i2
+        self.data[0][0][1] = i3
         return
 
-    def train(i1, i2, i3, bias, t):
+    def train(self,i1, i2, i3, bias, t):
         w1early = random.randint(-10, 10)
         w2early = random.randint(-10, 10)
         w3early = random.randint(-10, 10)
@@ -24,5 +27,7 @@ class NeuralNetwork:
         else:
             u = 0
         e = u - t
-        for i in range(10):
-            print(i)
+        while e < len(self.data):
+            updw1 = w1early+bias*self.data[0][0][0]*e
+            updw2 = w2early+bias*self.data[0][1][0]*e
+            updw3 = w3early+bias*self.data[0][0][1]*e

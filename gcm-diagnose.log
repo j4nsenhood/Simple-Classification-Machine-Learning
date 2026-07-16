@@ -1,0 +1,191 @@
+﻿Diagnose log at 2026-07-16T02:25:23Z
+
+AppPath: D:\ToolDeveloper\Git\mingw64\bin\git-credential-manager
+InstallDir: D:\ToolDeveloper\Git\mingw64\bin\
+Version: 2.0.935+8b4735fc7b
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26100)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\User
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DESKTOP-6SR4USC
+GIT_TRACE2_PARENT_SID=669458f5-efc4-43c4-aad3-2b5eec786605
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\User\OneDrive
+ChocolateyLastPathUpdate=133028861198122156
+SESSIONNAME=Console
+PROCESSOR_REVISION=8c01
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-6SR4USC
+TEMP=C:\Users\User\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\User\AppData\Local
+MSYSTEM=MINGW64
+TERM=xterm-256color
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+ProgramData=C:\ProgramData
+windir=C:\WINDOWS
+JAVA_HOME=C:\TechnicalWindows\JAVA\jdk-1.8\bin
+USERDOMAIN=DESKTOP-6SR4USC
+ProgramFiles(x86)=C:\Program Files (x86)
+HADOOP_HOME=C:\TechnicalWindows\hadoop\bin
+TERM_PROGRAM=zed
+PROCESSOR_LEVEL=6
+NUMBER_OF_PROCESSORS=8
+TMPDIR=C:\Users\User\AppData\Local\Temp
+ZED_ENVIRONMENT=worktree-shell
+APPDATA=C:\Users\User\AppData\Roaming
+PROMPT=$P$G
+TERM_PROGRAM_VERSION=1.11.3+stable.326.952d712dac48a4af2c54fb22c82d82a9d69b72d4
+PSModulePath=C:\Users\User\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+USERPROFILE=C:\Users\User
+PLINK_PROTOCOL=ssh
+COLORTERM=truecolor
+ProgramW6432=C:\Program Files
+PATH=D:/ToolDeveloper/Git/mingw64/libexec/git-core;D:\ToolDeveloper\Git\mingw64\bin;D:\ToolDeveloper\Git\usr\bin;C:\Users\User\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\mincraft\javacompil\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ToolDeveloper\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\nodejs\;C:\Program Files\KTX-Software\bin;C:\Program Files\LLVM\bin;D:\ToolDeveloper\CppCompiler\MinGW\bin;C:\Users\User\.cargo\bin;C:\Users\User\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python311\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\.dotnet\tools;D:\ToolDeveloper\kotlinc\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Users\User\AppData\Roaming\npm;D:\ToolDeveloper\UtilityToCode\Zed\bin;C:\Program Files\LLVM\bin;D:\ToolDeveloper\CppCompiler\MinGW\bin;C:\Users\User\AppData\Roaming\Python\Python312\Scripts;
+ProgramFiles=C:\Program Files (x86)
+ZED_TERM=true
+TMP=C:\Users\User\AppData\Local\Temp
+HOME=C:\Users\User
+SystemRoot=C:\WINDOWS
+CommonProgramW6432=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+LOGONSERVER=\\DESKTOP-6SR4USC
+GIT_EXEC_PATH=D:/ToolDeveloper/Git/mingw64/libexec/git-core
+LANG=en_US.UTF-8
+HOMEDRIVE=C:
+ChocolateyInstall=C:\ProgramData\chocolatey
+USERNAME=User
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+SystemDrive=C:
+EFC_8736_1592913036=1
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\User\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\User\AppData\Local\Temp\43b34f09946bdc9bc0cfacd4'... OK
+Reading from temporary file 'C:\Users\User\AppData\Local\Temp\43b34f09946bdc9bc0cfacd4'... OK
+Deleting temporary file 'C:\Users\User\AppData\Local\Temp\43b34f09946bdc9bc0cfacd4'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\User
+UserDataDirectoryPath: C:\Users\User\.gcm
+GetCurrentDirectory(): D:\MyProjekan\DesktopOrConsole\SimpleMachineLearning
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:3796/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.40.0.windows.1'
+Locating current repository... OK
+Git repository at 'D:/MyProjekan/DesktopOrConsole/SimpleMachineLearning/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:D:/ToolDeveloper/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:D:/ToolDeveloper/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:D:/ToolDeveloper/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:D:/ToolDeveloper/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:D:/ToolDeveloper/Git/etc/gitconfig	filter.lfs.required=true
+file:D:/ToolDeveloper/Git/etc/gitconfig	http.sslbackend=openssl
+file:D:/ToolDeveloper/Git/etc/gitconfig	http.sslcainfo=D:/ToolDeveloper/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:D:/ToolDeveloper/Git/etc/gitconfig	core.autocrlf=true
+file:D:/ToolDeveloper/Git/etc/gitconfig	core.fscache=true
+file:D:/ToolDeveloper/Git/etc/gitconfig	core.symlinks=false
+file:D:/ToolDeveloper/Git/etc/gitconfig	pull.rebase=false
+file:D:/ToolDeveloper/Git/etc/gitconfig	credential.helper=manager
+file:D:/ToolDeveloper/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:D:/ToolDeveloper/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/User/.gitconfig	core.editor="C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+file:C:/Users/User/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/User/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/User/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/User/.gitconfig	filter.lfs.required=true
+file:C:/Users/User/.gitconfig	user.email=ahfadz.jelliut@gmail.com
+file:C:/Users/User/.gitconfig	user.name=fadz
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/j4nsenhood/Simple-Classification-Machine-Learning.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker not supported.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\User\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\User\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
